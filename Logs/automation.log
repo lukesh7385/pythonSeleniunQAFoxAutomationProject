@@ -1,0 +1,19 @@
+03/04/2024 01:13:46 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/04/2024 01:13:58 PM |      INFO | test_RegistrationFunctionality.py:16 | Navigate to the url
+03/04/2024 01:13:58 PM |      INFO | test_RegistrationFunctionality.py:18 | maximizing the browser window
+03/04/2024 01:13:58 PM |      INFO | test_RegistrationFunctionality.py:22 | clicking on the my account drop menu
+03/04/2024 01:14:02 PM |      INFO | test_RegistrationFunctionality.py:24 | clicking on registration link
+03/04/2024 01:14:02 PM |      INFO | test_RegistrationFunctionality.py:26 | entering firstname
+03/04/2024 01:14:03 PM |      INFO | test_RegistrationFunctionality.py:28 | entering lastname
+03/04/2024 01:14:03 PM |      INFO | test_RegistrationFunctionality.py:30 | entering email
+03/04/2024 01:14:03 PM |      INFO | test_RegistrationFunctionality.py:32 | entering phone number
+03/04/2024 01:14:03 PM |      INFO | test_RegistrationFunctionality.py:34 | Entering password
+03/04/2024 01:14:03 PM |      INFO | test_RegistrationFunctionality.py:36 | confirm password
+03/04/2024 01:14:03 PM |      INFO | test_RegistrationFunctionality.py:38 | clicking on check box
+03/04/2024 01:14:04 PM |      INFO | test_RegistrationFunctionality.py:40 | clicking on continue button
+03/04/2024 01:14:04 PM |      INFO | test_RegistrationFunctionality.py:43 | ************** Starting the Validation **********************
+03/04/2024 01:14:05 PM |      INFO | test_RegistrationFunctionality.py:49 | clicking on second continue button
+03/04/2024 01:14:05 PM |      INFO | test_RegistrationFunctionality.py:52 | ************** Starting the second Validation **********************
+03/04/2024 01:14:05 PM |      INFO | test_RegistrationFunctionality.py:55 | Registration Test Passed
+03/04/2024 01:14:05 PM |      INFO | test_RegistrationFunctionality.py:58 | *************** Ending the Test Case the Registration Functionality TC_RF_001 ****************
+03/04/2024 01:14:07 PM |      INFO | test_RegistrationFunctionality.py:60 | closing the browser
