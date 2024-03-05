@@ -4,7 +4,7 @@ import logging
 
 class LogGen:
     @staticmethod
-    def loggen(loglevel=logging.DEBUG):
+    def loggen():
         # set class/method name from where its called
         logger_name = inspect.stack()[1][3]
         # create logger

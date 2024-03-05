@@ -21,3 +21,4 @@ class LoginPage:
 
     def click_on_login_button(self):
         self.driver.find_element(*LoginPage.btnLogin_xpath).click()
+

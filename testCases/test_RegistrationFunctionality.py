@@ -11,14 +11,13 @@ class Test_001_RegistrationFunctionality:
     def test_registration_functionality_001(self, setup):
         self.log.info("****************** Starting Test Case the Registration Functionality TC_RF_001 ****************")
         self.driver = setup
-        self.driver.implicitly_wait(10)
         self.driver.get(self.baseURL)
         self.log.info("Navigate to the url")
         self.driver.maximize_window()
         self.log.info("maximizing the browser window")
 
         self.rp = RegistrationPage(self.driver)
-        self.rp.clicking_on_my_account()
+        self.rp.clicking_on_my_account_drop_down_menu()
         self.log.info("clicking on the my account drop menu")
         self.rp.clicking_on_register()
         self.log.info("clicking on registration link")
@@ -61,11 +60,10 @@ class Test_001_RegistrationFunctionality:
 
     def test_registration_functionality_003(self, setup):
         self.driver = setup
-        self.driver.implicitly_wait(10)
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
         self.rp = RegistrationPage(self.driver)
-        self.rp.clicking_on_my_account()
+        self.rp.clicking_on_my_account_drop_down_menu()
         self.rp.clicking_on_register()
         self.rp.set_first_name('Lukesh')
         self.rp.set_last_name('Ade')
@@ -93,11 +91,10 @@ class Test_001_RegistrationFunctionality:
 
     def test_registration_functionality_004(self, setup):
         self.driver = setup
-        self.driver.implicitly_wait(10)
         self.driver.get(self.baseURL)
         self.driver.maximize_window()
         self.rp = RegistrationPage(self.driver)
-        self.rp.clicking_on_my_account()
+        self.rp.clicking_on_my_account_drop_down_menu()
         self.rp.clicking_on_register()
         self.rp.clicking_on_continue()
 
@@ -132,3 +129,64 @@ class Test_001_RegistrationFunctionality:
         exp_privacy_policy_text_message = "Warning: You must agree to the Privacy Policy!"
         assert act_privacy_policy_text_message.text.__contains__(exp_privacy_policy_text_message)
         self.rp.teardown()
+
+    def test_registration_functionality_005(self, setup):
+        self.driver = setup
+        self.driver.get(self.baseURL)
+        self.driver.maximize_window()
+        self.rp = RegistrationPage(self.driver)
+        self.rp.clicking_on_my_account_drop_down_menu()
+        self.rp.clicking_on_register()
+        self.rp.set_first_name('Lukesh')
+        self.rp.set_last_name('Ade')
+        self.rp.set_email(self.rp.generate_random_username() + '@gmail.com')
+        self.rp.set_phone_no('1234567890')
+        self.rp.set_password("admin")
+        self.rp.confirm_password('admin')
+        self.rp.clicking_on_radio_button_newsletter_subscribe_yse()
+        self.rp.clicking_on_check_box_agree()
+        self.rp.clicking_on_continue()
+
+        exp_text_message = "Your Account Has Been Created!"
+        act_text_message = self.driver.find_element(By.XPATH,
+                                                    "//h1[normalize-space()='Your Account Has Been Created!']")
+        assert act_text_message.text.__eq__(exp_text_message)
+
+        ext_text_congratulations_message = 'Congratulations! Your new account has been successfully created!'
+        act_text_congratulations_message = self.driver.find_element(By.XPATH, "//div[@id='content']//p[1]")
+        assert act_text_congratulations_message.text.__contains__(ext_text_congratulations_message)
+
+        exp_text_privileges_msg = ("You can now take advantage of member privileges to enhance your online shopping "
+                                   "experience with us")
+        act_text_privileges_msg = self.driver.find_element(By.XPATH, "//div[@id='content']//p[2]")
+        assert act_text_privileges_msg.text.__contains__(exp_text_privileges_msg)
+
+        exp_text_any_questions_message = (
+            "If you have ANY questions about the operation of this online shop, please e-mail the "
+            "store owner.")
+        act_text_any_questions_msg = self.driver.find_element(By.XPATH, "//div[@id='content']//p[3]")
+        assert act_text_any_questions_msg.text.__contains__(exp_text_any_questions_message)
+
+        exp_text_confirmation_message = ("A confirmation has been sent to the provided e-mail address. If you have "
+                                         "not received it within the hour, please")
+        act_text_confirmation_message = self.driver.find_element(By.XPATH, "//div[@id='content']//p[4]")
+        assert act_text_confirmation_message.text.__contains__(exp_text_confirmation_message)
+        self.rp.clicking_on_second_continue()
+        exp_account_page_title = "My Account"
+        act_account_page_title = self.driver.title
+        assert act_account_page_title.__eq__(exp_account_page_title)
+        self.rp.clicking_on_news_letter_link()
+
+        news_letter_subscription_yes_option = self.driver.find_element(By.XPATH, "//input[@value='1']").is_displayed()
+        if news_letter_subscription_yes_option:
+            assert True
+        else:
+            assert False
+
+        self.rp.clicking_on_continue()
+        exp_success_newsletter_subscription = "Success: Your newsletter subscription has been successfully updated!"
+        act_success_newsletter_subscription = self.driver.find_element(By.XPATH, "//div[@class='alert alert-success "
+                                                                                 "alert-dismissible']")
+        assert act_success_newsletter_subscription.text.__contains__(exp_success_newsletter_subscription)
+        self.rp.teardown()
+

@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 
 class RegistrationPage:
-    linkMyAccount_xpath = (By.XPATH, "//span[normalize-space()='My Account']")
+    linkMyAccountDropDownMenu_xpath = (By.XPATH, "//span[normalize-space()='My Account']")
     linkRegister_xpath = (By.XPATH, "//a[normalize-space()='Register']")
     textFirstName_id = (By.ID, "input-firstname")
     textLastName_id = (By.ID, "input-lastname")
@@ -16,12 +16,13 @@ class RegistrationPage:
     checkBoxPrivacyPolicy_name = (By.NAME, "agree")
     btnContinue_xpath = (By.XPATH, "//input[@value='Continue']")
     btn2Continue_linkText = (By.LINK_TEXT, "Continue")
+    linkNewsLetter_xpath = (By.XPATH, "//a[normalize-space()='Subscribe / unsubscribe to newsletter']")
 
     def __init__(self, driver):
         self.driver = driver
 
-    def clicking_on_my_account(self):
-        self.driver.find_element(*RegistrationPage.linkMyAccount_xpath).click()
+    def clicking_on_my_account_drop_down_menu(self):
+        self.driver.find_element(*RegistrationPage.linkMyAccountDropDownMenu_xpath).click()
 
     def clicking_on_register(self):
         self.driver.find_element(*RegistrationPage.linkRegister_xpath).click()
@@ -55,6 +56,9 @@ class RegistrationPage:
 
     def clicking_on_second_continue(self):
         self.driver.find_element(*RegistrationPage.btn2Continue_linkText).click()
+
+    def clicking_on_news_letter_link(self):
+        self.driver.find_element(*RegistrationPage.linkNewsLetter_xpath).click()
 
     def teardown(self):
         self.driver.quit()
