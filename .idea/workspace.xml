@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c1ce018-c2f9-4985-b285-32ae1e991879" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pageObject/LogoutPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testCases/test_LogoutFunctionality.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObject/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObject/LoginPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pageObject/RegistrationPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObject/RegistrationPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCases/test_LoginFunctionality.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_LoginFunctionality.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testCases/test_RegistrationFunctionality.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCases/test_RegistrationFunctionality.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/customeLogger.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/customeLogger.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     &quot;Python.demo.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/lukesh ade/PycharmProjects/pythonSeleniumQAFoxProject&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;

@@ -12,16 +12,19 @@ def setup(browser):
         options = webdriver.ChromeOptions()
         options.add_experimental_option("detach", True)
         driver = webdriver.Chrome(service=serv_obj, options=options)
+        driver.implicitly_wait(10)
         print("Launching Chrome Browser")
     elif browser == 'firefox':
         serv_obj = Service("C:\\Program Files\\Drivers\\geckodriver-v0.34.0-win64\\geckodriver.exe")
         driver = webdriver.Firefox(service=serv_obj)
+        driver.implicitly_wait(10)
         print("Launching Firefox Browser")
     elif browser == 'edge':
         serv_obj = Service("C:\\Program Files\\Drivers\\edgedriver_win64\\msedgedriver.exe")
         options = webdriver.EdgeOptions()
         options.add_experimental_option("detach", True)
         driver = webdriver.Edge(service=serv_obj, options=options)
+        driver.implicitly_wait(10)
         print("Launching Edge Browser")
     else:
         serv_obj = Service("C:\\Program Files\\Drivers\\chromedriver-win64\\chromedriver.exe")
@@ -29,6 +32,7 @@ def setup(browser):
         options.add_experimental_option("detach", True)
         options.add_argument("headless")
         driver = webdriver.Chrome(options=options, service=serv_obj)
+        driver.implicitly_wait(10)
         print("Headless mode")
     return driver
 

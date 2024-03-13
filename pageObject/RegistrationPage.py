@@ -5,7 +5,8 @@ from selenium.webdriver.common.by import By
 
 class RegistrationPage:
     linkMyAccountDropDownMenu_xpath = (By.XPATH, "//span[normalize-space()='My Account']")
-    linkRegister_xpath = (By.XPATH, "//a[normalize-space()='Register']")
+    linkRegister_xpath = (By.XPATH, "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space("
+                                    ")='Register']")
     textFirstName_id = (By.ID, "input-firstname")
     textLastName_id = (By.ID, "input-lastname")
     textEmail_id = (By.ID, "input-email")

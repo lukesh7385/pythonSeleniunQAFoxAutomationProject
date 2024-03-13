@@ -55,3 +55,79 @@
 03/05/2024 12:26:02 PM |      INFO | test_RegistrationFunctionality.py:54 | Registration Test Passed
 03/05/2024 12:26:02 PM |      INFO | test_RegistrationFunctionality.py:57 | *************** Ending the Test Case the Registration Functionality TC_RF_001 ****************
 03/05/2024 12:26:04 PM |      INFO | test_RegistrationFunctionality.py:59 | closing the browser
+03/13/2024 05:51:45 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 05:51:46 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 05:51:46 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 05:52:45 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 05:52:46 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 05:52:46 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 06:04:46 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 06:04:47 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 06:04:48 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:03:09 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:03:10 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 07:03:10 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:07:09 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:07:10 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 07:07:10 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:12:54 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:12:55 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 07:12:55 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:12:56 PM |      INFO | test_RegistrationFunctionality.py:21 | clicking on the my account drop menu
+03/13/2024 07:17:27 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:17:27 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 07:17:28 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:17:28 PM |      INFO | test_RegistrationFunctionality.py:21 | clicking on the my account drop menu
+03/13/2024 07:17:28 PM |      INFO | test_RegistrationFunctionality.py:23 | clicking on registration link
+03/13/2024 07:17:28 PM |      INFO | test_RegistrationFunctionality.py:25 | entering firstname
+03/13/2024 07:17:28 PM |      INFO | test_RegistrationFunctionality.py:27 | entering lastname
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:29 | entering email
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:31 | entering phone number
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:33 | Entering password
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:35 | confirm password
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:37 | clicking on check box
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:39 | clicking on continue button
+03/13/2024 07:17:29 PM |      INFO | test_RegistrationFunctionality.py:42 | ************** Starting the Validation **********************
+03/13/2024 07:17:30 PM |      INFO | test_RegistrationFunctionality.py:48 | clicking on second continue button
+03/13/2024 07:17:30 PM |      INFO | test_RegistrationFunctionality.py:51 | ************** Starting the second Validation **********************
+03/13/2024 07:17:30 PM |      INFO | test_RegistrationFunctionality.py:54 | Registration Test Passed
+03/13/2024 07:17:30 PM |      INFO | test_RegistrationFunctionality.py:57 | *************** Ending the Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:17:32 PM |      INFO | test_RegistrationFunctionality.py:59 | closing the browser
+03/13/2024 07:26:16 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:26:17 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 07:26:17 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:26:18 PM |      INFO | test_RegistrationFunctionality.py:21 | clicking on the my account drop menu
+03/13/2024 07:26:18 PM |      INFO | test_RegistrationFunctionality.py:23 | clicking on registration link
+03/13/2024 07:26:18 PM |      INFO | test_RegistrationFunctionality.py:25 | entering firstname
+03/13/2024 07:26:18 PM |      INFO | test_RegistrationFunctionality.py:27 | entering lastname
+03/13/2024 07:26:18 PM |      INFO | test_RegistrationFunctionality.py:29 | entering email
+03/13/2024 07:26:18 PM |      INFO | test_RegistrationFunctionality.py:31 | entering phone number
+03/13/2024 07:26:19 PM |      INFO | test_RegistrationFunctionality.py:33 | Entering password
+03/13/2024 07:26:19 PM |      INFO | test_RegistrationFunctionality.py:35 | confirm password
+03/13/2024 07:26:19 PM |      INFO | test_RegistrationFunctionality.py:37 | clicking on check box
+03/13/2024 07:26:19 PM |      INFO | test_RegistrationFunctionality.py:39 | clicking on continue button
+03/13/2024 07:26:19 PM |      INFO | test_RegistrationFunctionality.py:42 | ************** Starting the Validation **********************
+03/13/2024 07:26:20 PM |      INFO | test_RegistrationFunctionality.py:48 | clicking on second continue button
+03/13/2024 07:26:20 PM |      INFO | test_RegistrationFunctionality.py:51 | ************** Starting the second Validation **********************
+03/13/2024 07:26:20 PM |      INFO | test_RegistrationFunctionality.py:54 | Registration Test Passed
+03/13/2024 07:26:20 PM |      INFO | test_RegistrationFunctionality.py:57 | *************** Ending the Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:26:22 PM |      INFO | test_RegistrationFunctionality.py:59 | closing the browser
+03/13/2024 07:32:13 PM |      INFO | test_RegistrationFunctionality.py:12 | ****************** Starting Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:32:14 PM |      INFO | test_RegistrationFunctionality.py:15 | Navigate to the url
+03/13/2024 07:32:14 PM |      INFO | test_RegistrationFunctionality.py:17 | maximizing the browser window
+03/13/2024 07:32:14 PM |      INFO | test_RegistrationFunctionality.py:21 | clicking on the my account drop menu
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:23 | clicking on registration link
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:25 | entering firstname
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:27 | entering lastname
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:29 | entering email
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:31 | entering phone number
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:33 | Entering password
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:35 | confirm password
+03/13/2024 07:32:15 PM |      INFO | test_RegistrationFunctionality.py:37 | clicking on check box
+03/13/2024 07:32:16 PM |      INFO | test_RegistrationFunctionality.py:39 | clicking on continue button
+03/13/2024 07:32:16 PM |      INFO | test_RegistrationFunctionality.py:42 | ************** Starting the Validation **********************
+03/13/2024 07:32:16 PM |      INFO | test_RegistrationFunctionality.py:48 | clicking on second continue button
+03/13/2024 07:32:16 PM |      INFO | test_RegistrationFunctionality.py:51 | ************** Starting the second Validation **********************
+03/13/2024 07:32:16 PM |      INFO | test_RegistrationFunctionality.py:54 | Registration Test Passed
+03/13/2024 07:32:16 PM |      INFO | test_RegistrationFunctionality.py:57 | *************** Ending the Test Case the Registration Functionality TC_RF_001 ****************
+03/13/2024 07:32:18 PM |      INFO | test_RegistrationFunctionality.py:59 | closing the browser

@@ -189,4 +189,3 @@ class Test_001_RegistrationFunctionality:
                                                                                  "alert-dismissible']")
         assert act_success_newsletter_subscription.text.__contains__(exp_success_newsletter_subscription)
         self.rp.teardown()
-
